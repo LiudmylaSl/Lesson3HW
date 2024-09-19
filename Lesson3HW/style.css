@@ -1,0 +1,42 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+table {
+    width: 50%;
+    margin: 80px;
+    /* ето внешний отступ */
+    border-collapse: collapse;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    /* Общее округление углов таблицы */
+    overflow: hidden;
+    /* чтобы скрыть углы таблицы */
+   
+
+}
+
+thead{
+    background-color: #070000;
+    color: rgb(13, 12, 12);
+}
+
+th,td {
+    padding: 10px 15px;
+    border: 1px solid gray;
+    text-align: left;
+
+}
+
+th {
+    background-color: #ffffff;
+
+}
+
+td:hover {
+    background-color: rgb(212, 101, 26);
+    cursor: pointer;
+}
+
